@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 80%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
