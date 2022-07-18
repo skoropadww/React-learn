@@ -1,11 +1,15 @@
+import {Component} from "react";
+
 import './Main.scss';
 
-export function Main() {
-  return (
-    <section className="main">
-      <h2 className="main__title">
-        I'm Main
+export class  MainContainer extends Component  {
+  render() {
+    return (
+      <section className="main">
+        <h2 className="main__title">
+          I'm MainContainer
       </h2>
-    </section>
-  );
+      </section>
+    );
+  }
 }
